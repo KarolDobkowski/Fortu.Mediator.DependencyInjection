@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fortu.Mediator.DependencyInjection", "Fortu.Mediator.DependencyInjection\Fortu.Mediator.DependencyInjection.csproj", "{D4F9C9C4-002D-4C5D-AC7F-0E9F90DB1936}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{461DBF1A-D8E8-432E-A842-FE06684AD399}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3D78EC66-DC09-4FAD-ACB7-A0D778A93365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fortu.Mediator.DependencyInjection.Tests", "Fortu.Mediator.DependencyInjection.Tests\Fortu.Mediator.DependencyInjection.Tests.csproj", "{2FE79D33-DA19-48C2-8092-B047D87FE4DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{D4F9C9C4-002D-4C5D-AC7F-0E9F90DB1936}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4F9C9C4-002D-4C5D-AC7F-0E9F90DB1936}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4F9C9C4-002D-4C5D-AC7F-0E9F90DB1936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE79D33-DA19-48C2-8092-B047D87FE4DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE79D33-DA19-48C2-8092-B047D87FE4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE79D33-DA19-48C2-8092-B047D87FE4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE79D33-DA19-48C2-8092-B047D87FE4DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4F9C9C4-002D-4C5D-AC7F-0E9F90DB1936} = {461DBF1A-D8E8-432E-A842-FE06684AD399}
+		{2FE79D33-DA19-48C2-8092-B047D87FE4DE} = {3D78EC66-DC09-4FAD-ACB7-A0D778A93365}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4ED023D-89F6-4966-9637-86E16FAAE83D}
