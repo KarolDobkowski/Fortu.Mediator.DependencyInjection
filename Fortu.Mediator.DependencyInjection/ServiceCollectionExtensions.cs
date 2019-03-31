@@ -8,7 +8,7 @@ namespace Fortu.Mediator.DependencyInjection
     {
         public static IServiceCollection AddMediator(this IServiceCollection services)
         {
-            services.AddSingleton<IMediator, Mediator>();
+            services.AddScoped<IMediator, Mediator>();
             return services;
         }
 
